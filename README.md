@@ -5,7 +5,7 @@
 
 TO Do:
 
-- [ ] **Basic 
-- [ ] **singwarp
-- [ ] **fun
+- [ ] **Basic** 
+- [ ] **singwarp**
+- [ ] **fun**
 - [ ] **??**
