@@ -37,8 +37,6 @@ class ServerCore extends PluginBase implements Listener;
         $this->getServer()->getPluginManager ()->registerEvents ( $this, $this );		
         }
 
-
-
 /**
 *    public function getPermission($name)
 *    if(isset($this->permissions[$name])){
