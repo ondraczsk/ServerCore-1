@@ -40,10 +40,10 @@ class ServerCore extends PluginBase implements Listener;
 
 
 /**
-	public function getPermission($name){
-		if(isset($this->permissions[$name])){
-			return $this->permissions[$name];
-		}
-		return null;
-	}
+*    public function getPermission($name)
+*    if(isset($this->permissions[$name])){
+*    return $this->permissions[$name];
+*    }
+*  return null;
+*}
 */
