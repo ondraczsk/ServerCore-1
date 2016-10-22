@@ -37,7 +37,7 @@ class ServerCore extends PluginBase implements Listener;
         $this->getServer()->getPluginManager ()->registerEvents ( $this, $this );		
         }
 
-**/ 
+/** 
 * Spawn function
 *    public function getSpawn() : Position{
 *		if($this->spawnPosition instanceof Position and $this->spawnPosition->getLevel() instanceof Level){
@@ -47,7 +47,7 @@ class ServerCore extends PluginBase implements Listener;
 *			return $level->getSafeSpawn();
 *		}
 *}
-**/
+*/
 
 
 /**
