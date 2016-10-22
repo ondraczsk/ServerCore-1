@@ -25,6 +25,7 @@ use pocketmine\Player;
 use pocketmine\utils\Config;
 use pocketmine\level\Level;
 use pocketmine\event\Listener;
+use pocketmine\permission\Permission;
 
 
 
@@ -36,3 +37,13 @@ class ServerCore extends PluginBase implements Listener;
         $this->getServer()->getPluginManager ()->registerEvents ( $this, $this );		
         }
 
+
+
+/**
+	public function getPermission($name){
+		if(isset($this->permissions[$name])){
+			return $this->permissions[$name];
+		}
+		return null;
+	}
+**/
