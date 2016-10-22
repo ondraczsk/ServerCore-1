@@ -1,0 +1,4 @@
+name: ServerCore  
+author: PikyCZ
+main: src/ServerCore
+api: 2.0.0.
