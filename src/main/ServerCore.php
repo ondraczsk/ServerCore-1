@@ -34,7 +34,9 @@ class ServerCore extends PluginBase implements Listener;
 
  public function onEnable(){
         $this->getLogger()->info ( TextFormat::GREEN . "ServerCore is enabled" );
-        $this->getServer()->getPluginManager ()->registerEvents ( $this, $this );		
+        $this->getServer()->getPluginManager ()->registerEvents ( $this, $this );	
+        @mkdir($this->getDataFolder());
+ 		$config = new Config($this->getDataFolder() . "/config.yml", Config::YAML);
         }
 
 /** 
